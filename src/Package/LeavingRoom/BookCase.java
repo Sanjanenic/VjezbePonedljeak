@@ -1,7 +1,7 @@
 package Package.LeavingRoom;
 
 public class BookCase {
-    private int shelves;
+    private int shelves;  //protected nur in pakage, private _ nur in Class
     private  String genre;
     private Book[] books;
 
