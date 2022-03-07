@@ -9,7 +9,7 @@ public class MultidimensionalArrays {
                 {1,1,1}
         };
 
-        for(int i =0; i <arrayInception.length; i++){ //i gleda olio nizova imamo, j koji je sazaj niza u kojem smo vec unutra
+        for(int i =0; i <arrayInception.length; i++){ //i gleda koliko nizova imamo, j koji je sazaj niza u kojem smo vec unutra
             for(int j =0; j<arrayInception[i].length; j++){
                 System.out.print(arrayInception[i][j] + " ");
             }
