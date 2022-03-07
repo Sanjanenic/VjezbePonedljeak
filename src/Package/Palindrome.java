@@ -10,7 +10,7 @@ public class Palindrome {
         //Otto
 
        isPalindrome("Anna") ;
-        System.out.println(isPalindrome("Anna2"));
+        System.out.println(isPalindrome("Was it a car ra cat I saw"));
     }
     public static boolean isPalindrome(String potentialPalindrome){
         potentialPalindrome = potentialPalindrome.toLowerCase();
@@ -22,7 +22,7 @@ public class Palindrome {
         char lastLetter = potentialPalindrome.charAt((potentialPalindrome.length()-1));
 
         if (firstLetter == lastLetter){
-            potentialPalindrome = potentialPalindrome.substring(1,potentialPalindrome.length()-1);
+            potentialPalindrome = potentialPalindrome.substring(1,potentialPalindrome.length()-1);  //Substring index ima od 1
             if(potentialPalindrome.length()<=1){
                 return true;
             }

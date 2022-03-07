@@ -8,7 +8,6 @@ public class MultidimensionalArrays {
                 {1, 1, 1},
                 {1,1,1}
         };
-
         printArray(arrayInception);
 
         System.out.println("----------------------------");
@@ -23,14 +22,11 @@ public class MultidimensionalArrays {
              printArray(arrayInception);
             //System.out.print(arrayInception.toString(array)); ovo bi trebalo radizi drugacije
 
-
          /*for(int[]array : arrayInception){ //ovo je isto kao gore samo sad sa for each
              for(int element : array){
                  System.out.print(element + " ");
              }
              System.out.println();*/
-
-
 
          }
 
