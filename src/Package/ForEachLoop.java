@@ -10,7 +10,7 @@ public class ForEachLoop {
 
          for(int number : array){ //: nam govori gdje treba gledati, ovdje prvi put gleda zadnji element
 
-             array[number-1]+= 12;
+             array[number-1]+= 12;  //-1 da bi se primjenilo na prvi clan array, posto for each petlja broji od 1 a ne od 0.
          }
         System.out.println(Arrays.toString(array));
 

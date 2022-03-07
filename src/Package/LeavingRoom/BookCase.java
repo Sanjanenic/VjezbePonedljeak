@@ -11,7 +11,7 @@ public class BookCase {
     }
     //objekt metoda ne treba static!!!
 
-    public BookCase(int shelves, String genre, LeavingRoom.Book[] books) {
+    public BookCase(int shelves, String genre, Book[] books) {
         this.shelves = shelves;
         this.genre = genre;
         this.books = books;
@@ -33,11 +33,11 @@ public class BookCase {
         this.genre = genre;
     }
 
-    public LeavingRoom.Book[] getBooks() {
+    public Book[] getBooks() {
         return books;
     }
 
-    public void setBooks(LeavingRoom.Book[] books) {
+    public void setBooks(Book[] books) {
         this.books = books;
     }
 }
