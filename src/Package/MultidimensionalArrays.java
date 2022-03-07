@@ -19,10 +19,11 @@ public class MultidimensionalArrays {
             arrayInception[1][1] = 9;
 
             arrayInception [0][0] = 3;
+            arrayInception [0][2] = 3;
             arrayInception[2][0] = 3;
             arrayInception [2][2]= 3;
 
-            //System.out.print(arrayInception.toString(array));
+            //System.out.print(arrayInception.toString(array)); ovo bi trebalo radizi drugacije
         }
 
          /*for(int[]array : arrayInception){ //ovo je isto kao gore samo sad sa for each
