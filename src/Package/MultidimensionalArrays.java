@@ -14,8 +14,25 @@ public class MultidimensionalArrays {
                 System.out.print(arrayInception[i][j] + " ");
             }
             System.out.println(); //ovo sluzi da nam ne dodje u konzoli sve u jednom redu
+
+            System.out.println("----------------------------");
+            arrayInception[1][1] = 9;
+
+            arrayInception [0][0] = 3;
+            arrayInception[2][0] = 3;
+            arrayInception [2][2]= 3;
+
+            //System.out.print(arrayInception.toString(array));
         }
 
+         /*for(int[]array : arrayInception){ //ovo je isto kao gore samo sad sa for each
+             for(int element : array){
+                 System.out.print(element + " ");
+             }
+             System.out.println();*/
 
+
+
+         }
     }
-}
+
